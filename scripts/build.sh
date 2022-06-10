@@ -1,0 +1,3 @@
+cd build
+cmake -DNETWORKIT_BUILD_TESTS=ON -DNETWORKIT_QUIET_LOGGING=ON ..
+make -j 40
